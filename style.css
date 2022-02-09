@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+}
+p {
+  padding-left: 0.3rem;
+  /*TRouBLe*/
+  margin: 2rem 0 2rem 0;
+}
+.floatleft {
+  float: left;
+  /*TRouBLe*/
+   margin: 0 1rem 1rem 0.5rem;
+}
+article {
+  width: 30rem;
+  margin: 0 auto;
+}
+.floatright{
+  float: right;
+}
+article:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+aside {
+  float: right;
+  width: 55%;
+  margin: 1rem 0rem 0rem 1rem;
+  text-align: center;
+  border: 3px dashed white;
+}
